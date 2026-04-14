@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Rishon Bose Portfolio</title>
+  <meta name="description" content="Selected projects by Rishon Bose.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="projects">
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrapper">
+     <a class="brand-text" href="index.html" aria-label="Go to homepage">Rishon Bose</a>
+
+      <button class="menu-toggle" type="button" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="site-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html">About</a></li>
+          <li><a class="nav-link active" href="projects.html">Projects</a></li>
+          <li><a class="nav-link" href="journey.html">Journey</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+
+        <button class="theme-toggle" type="button" aria-label="Toggle colour theme">
+          <span class="theme-icon sun" aria-hidden="true">☀</span>
+          <span class="theme-icon moon" aria-hidden="true">☾</span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="page-hero section">
+      <div class="container reveal">
+        <p class="eyebrow">Projects</p>
+        <h1>Selected work that reflects design quality, responsiveness, and interaction.</h1>
+        <p class="lead">
+          These project cards use JavaScript filters and modal details to create a more dynamic portfolio experience.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filter-row reveal" role="group" aria-label="Filter projects">
+          <button class="filter-btn active" type="button" data-filter="all">All</button>
+          <button class="filter-btn" type="button" data-filter="web">Web</button>
+          <button class="filter-btn" type="button" data-filter="javascript">JavaScript</button>
+          <button class="filter-btn" type="button" data-filter="design">Design</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="glass-card project-card reveal" data-category="web">
+            <span class="tag">Web</span>
+            <h2>Portfolio Website</h2>
+            <p>
+              A premium multi-page portfolio website focused on clean structure,
+              elegant styling, responsive layout, and strong visual identity.
+            </p>
+            <button
+              class="btn btn-secondary modal-open"
+              type="button"
+              data-title="Portfolio Website"
+              data-description="This project focuses on semantic HTML, shared styling, consistent page layouts, and a polished visual system. It is designed to go beyond basic coursework expectations and present a more complete digital product."
+              data-tech="HTML, CSS, JavaScript, Responsive Design"
+            >
+              View Details
+            </button>
+          </article>
+
+          <article class="glass-card project-card reveal" data-category="javascript">
+            <span class="tag">JavaScript</span>
+            <h2>Interactive UI Features</h2>
+            <p>
+              A set of front-end interactions including modal windows, theme switching,
+              FAQ toggles, reveal animations, and navigation behaviour.
+            </p>
+            <button
+              class="btn btn-secondary modal-open"
+              type="button"
+              data-title="Interactive UI Features"
+              data-description="This work demonstrates JavaScript used for practical user experience improvements rather than unnecessary effects. Each feature supports usability, engagement, or presentation quality."
+              data-tech="JavaScript, DOM Manipulation, Local Storage"
+            >
+              View Details
+            </button>
+          </article>
+
+          <article class="glass-card project-card reveal" data-category="design">
+            <span class="tag">Design</span>
+            <h2>Dark Theme Interface Concept</h2>
+            <p>
+              A visual system based on contrast, depth, gradients, spacing,
+              and consistent component styling for a more premium feel.
+            </p>
+            <button
+              class="btn btn-secondary modal-open"
+              type="button"
+              data-title="Dark Theme Interface Concept"
+              data-description="This concept explores strong visual hierarchy using controlled colour choices, typography, card styling, and layout balance. It helps create a more sophisticated user interface."
+              data-tech="UI Design, Layout, Typography"
+            >
+              View Details
+            </button>
+          </article>
+
+          <article class="glass-card project-card reveal" data-category="web javascript">
+            <span class="tag">Web + JavaScript</span>
+            <h2>Responsive Component System</h2>
+            <p>
+              A layout experiment that demonstrates how reusable components can scale
+              across devices while remaining clear and visually consistent.
+            </p>
+            <button
+              class="btn btn-secondary modal-open"
+              type="button"
+              data-title="Responsive Component System"
+              data-description="This project focuses on adaptive design, ensuring that sections, cards, typography, navigation, and spacing adjust smoothly across screen sizes while preserving clarity and structure."
+              data-tech="HTML, CSS Grid, Flexbox, JavaScript"
+            >
+              View Details
+            </button>
+          </article>
+
+          <article class="glass-card project-card reveal" data-category="design web">
+            <span class="tag">Design + Web</span>
+            <h2>Landing Page Composition</h2>
+            <p>
+              A homepage layout built around strong first impressions, call-to-action placement,
+              and structured content flow.
+            </p>
+            <button
+              class="btn btn-secondary modal-open"
+              type="button"
+              data-title="Landing Page Composition"
+              data-description="This project focuses on hero structure, content grouping, section rhythm, and visual emphasis to create a homepage that feels confident, modern, and purposeful."
+              data-tech="Layout Design, HTML, CSS"
+            >
+              View Details
+            </button>
+          </article>
+
+          <article class="glass-card project-card reveal" data-category="javascript design">
+            <span class="tag">JavaScript + Design</span>
+            <h2>Interactive Content Panels</h2>
+            <p>
+              A concept combining UI styling with behaviour-driven content reveals
+              to make interface sections feel more dynamic.
+            </p>
+            <button
+              class="btn btn-secondary modal-open"
+              type="button"
+              data-title="Interactive Content Panels"
+              data-description="This work demonstrates how design and behaviour can support each other through transitions, accordion patterns, and modal presentation to make content feel more engaging."
+              data-tech="JavaScript, CSS Transitions, UI Patterns"
+            >
+              View Details
+            </button>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div class="modal" id="project-modal" aria-hidden="true">
+    <div class="modal-overlay" data-close-modal></div>
+    <div class="glass-card modal-box" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" type="button" aria-label="Close modal" data-close-modal>×</button>
+      <p class="eyebrow">Project Details</p>
+      <h2 id="modal-title">Project Title</h2>
+      <p id="modal-description"></p>
+      <p class="modal-techline"><strong>Technologies:</strong> <span id="modal-tech"></span></p>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <p>© 2026 Rishon Bose. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
